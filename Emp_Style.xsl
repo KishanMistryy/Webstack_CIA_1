@@ -13,8 +13,11 @@
         </style>
 		</head>
 		<body>
-		 
-			<table border="1" height="50%" wigth="80%" >
+
+			<h2>NAME:-KISHAN MISTRY</h2>
+			<h2>ROLL NO.:-2047239</h2>
+			<center><h1>LIST OF EMPLOYEES</h1></center>
+			<center><table border="1" height="50%" wigth="80%" >
 				  
 					<tr bgcolor="lightgreen" >
 						<td colspan="8"><p style="font-size:50px;margin-left: 25%;">Employee Management System</p></td>
@@ -59,7 +62,7 @@
 							</xsl:choose>
 					</tr>
 					</xsl:for-each>
-			</table>
+			</table></center>
 		</body>
 	</html>
 </xsl:template>
