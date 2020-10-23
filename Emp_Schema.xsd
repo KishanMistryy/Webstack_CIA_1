@@ -7,8 +7,15 @@
         <xsd:complexType>
           <xsd:sequence>
             <xsd:element name="Emp_Name" type="xsd:string" />
-            <xsd:element name="Emp_Age" type="xsd:integer"/>
-            <xsd:element name="Emp_Salary" type="xsd:integer"/>
+            <xsd:element name="Emp_Age" type="xsd:integer"/>           
+            <xsd:element name="Emp_Salary">
+            <xsd:simpleType>
+            <xsd:restriction base="xs:integer">
+            <xsd:minInclusive value="50000"/>
+            <xsd:maxInclusive value="200000"/>
+            </xsd:restriction>
+            </xsd:simpleType>
+            </xsd:element> 
             <xsd:element name="Emp_Email" type="xsd:string"/>
             <xsd:element name="Emp_Phone_Number" type="xsd:string"/>
             <xsd:element name="Emp_Designation" type="xsd:string"/>
